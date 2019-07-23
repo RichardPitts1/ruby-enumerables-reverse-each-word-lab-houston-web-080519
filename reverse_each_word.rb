@@ -1,7 +1,7 @@
 def reverse_each_word_with_each(string)
-  original_array = string.split(" ")
+  array = string.split(" ")
   return_array = []
-  original_array.each do|string|
+  array.each do|string|
     return_array << string.reverse
   end
   return_array.join(" ")
@@ -17,15 +17,5 @@ def reverse_each_word(string)
 end
 
 
-reverse_each_word("Hello there, and how are you?")
-  #=> "olleH ,ereht dna woh era ?uoy"
   
   
-  def reverse_each_work_with_each(string) 
-    original_array = string.split(" ")
-    return_array = []
-    original_array.each do|string|
-    return_array << string.reverse_each_work_with_each
-  end
-  return_array.join(" ")
-end
